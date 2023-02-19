@@ -1,52 +1,52 @@
 .transactionHistory {
-    margin: 5vh auto;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 0.5rem;
+  margin: 5vh auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 0.5rem;
 }
 
 .headerTable {
-    font-size: 1.5rem;
-    text-align: center;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .transactionItem {
-    width: 30%;
-    padding: 1rem 5rem;
-    background-color: #02bbd7;
-    color: #fff;
-    font-size: 2rem;
-    text-transform: uppercase;
-    text-align: center;
+  width: 30%;
+  padding: 1rem 5rem;
+  background-color: #02bbd7;
+  color: #fff;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .transactionItem:first-child {
-    border-radius: 0.5rem 0 0 0;
+  border-radius: 0.5rem 0 0 0;
 }
 
 .transactionItem:last-child {
-    border-radius: 0 0.5rem 0 0;
+  border-radius: 0 0.5rem 0 0;
 }
 
 .tableData:last-child .transactionData:first-child {
-    border-radius: 0 0 0 0.5rem;
+  border-radius: 0 0 0 0.5rem;
 }
 
 .tableData:last-child .transactionData:last-child {
-    border-radius: 0 0 0.5rem 0;
+  border-radius: 0 0 0.5rem 0;
 }
 
 .tableData {
-    width: 33%;
-    color: #8a8b8e;
-    font-size: 2rem;
-    text-align: center;
-    text-transform: capitalize;
+  width: 33%;
+  color: #8a8b8e;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .tableData:nth-child(even) {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 
 .transactionData {
-    padding: 1rem 5rem;
+  padding: 1rem 5rem;
 }
